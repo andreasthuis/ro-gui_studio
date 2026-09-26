@@ -1,0 +1,32 @@
+{
+  "name": "ro-gui_studio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rotor build",
+    "watch": "rotor watch",
+    "dev": "rotor dev"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@rbxts/compiler-types": "^3.0.0-types.0",
+    "@rbxts/types": "^1.0.953",
+    "@rotor-rbx/rotor": "^2.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.70.1",
+    "@typescript-eslint/parser": "^8.70.1",
+    "eslint": "^10.11.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "eslint-plugin-roblox-ts": "^1.4.1",
+    "prettier": "^3.9.8",
+    "roblox-ts": "^3.0.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@rbxts/react": "^17.3.7-ts.2",
+    "@rbxts/react-roblox": "^17.3.7-ts.2",
+    "@rbxts/ui-labs": "^2.4.2"
+  }
+}
